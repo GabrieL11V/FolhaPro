@@ -1,0 +1,8 @@
+{
+    "/requisicao/*":{
+        "target": "http://localhost:8100/login",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}
