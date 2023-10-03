@@ -1,17 +1,20 @@
-<div class="login">
-  <ion-list lines="fullscreen">
-    <ion-item>
-      <ion-img class="logo" src="https://github.com/GabrieL11V/FolhaPro/blob/master/src/app/imagens/logoFolhaPro.png?raw=true" />
-    </ion-item>
-    <ion-item>
-      <ion-input label="Nome do Usuário" labelPlacement="floating" placeholder="Insira o Nome" [clearInput]="true" fill="solid" type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-input label="CPF/CNPJ" labelPlacement="floating" placeholder="Insira seu CPF/CNPJ" [clearInput]="true" fill="solid" type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-input label="Senha" labelPlacement="floating" placeholder="Insira sua Senha" [clearInput]="true" fill="solid" type="password"></ion-input>
-    </ion-item>
-  </ion-list>
-  <ion-button expand="block">Cadastar</ion-button>
-</div>
+<ion-content [fullscreen]="true">
+
+  <div class="logo-container">
+    <img src="https://github.com/GabrieL11V/FolhaPro/blob/master/src/app/imagens/logoFolhaPro.png?raw=true" alt="Logo Holerite" class="logo-holerite"/>
+  </div>
+
+    <ion-list lines="inset">
+      <ion-item>
+        <ion-input label="Nome do Usuário" labelPlacement="floating" placeholder="Insira seu Nome" [clearInput]="true" fill="solid" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="CPF/CNPJ" labelPlacement="floating" placeholder="Insira seu CPF/CNPJ" [clearInput]="true" fill="solid" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Senha" labelPlacement="floating" placeholder="Insira sua Senha" [clearInput]="true" fill="solid" type="password"></ion-input>
+      </ion-item>
+    </ion-list>
+    
+    <ion-button expand="block">Entrar</ion-button>
+</ion-content>
